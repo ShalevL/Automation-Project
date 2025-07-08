@@ -14,6 +14,44 @@ This project is a complete browser automation and reporting system using **Pytho
 
 ---
 
+# 1. Clone the project
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+# 2. Create a virtual environment
+python3 -m venv venv
+
+# 3. Activate the virtual environment (Mac/Linux)
+source venv/bin/activate
+
+# (Windows)
+# venv\Scripts\activate
+
+# 4. Upgrade pip (recommended)
+python3 -m pip install --upgrade pip
+
+# 5. Install required dependencies
+python3 -m pip install -r requirements.txt
+
+# 6. Install Playwright browsers
+python3 -m playwright install
+
+# ✅ You’re ready to go!
+# Run a single query:
+python3 main.py --query "OpenAI API"
+
+# Or run a batch (using data/keywords.txt):
+python3 main.py --file data/keywords.txt
+
+# 🧪 Run ZIM automation (Hebrew site)
+python3 core/zim_interactions.py
+
+# 🧪 Run ZIM Labs English site
+python3 core/zimlabs_interactions.py
+
+# ❌ When finished, deactivate the environment
+deactivate
+
 ## 📁 Project Structure
 
 Project/
