@@ -1,0 +1,10 @@
+📌 Requirements
+• Python 3.8+
+• playwright
+• argparse
+• pathlib
+• datetime
+
+🧾 Author & License
+Created by Shalev Lazarof
+

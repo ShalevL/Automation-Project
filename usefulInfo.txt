@@ -1,0 +1,9 @@
+https://atidcollege.co.il/members/orgs/testnet/
+
+user_name: testnet
+password: Test!Net@25
+
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+python3 -m pip install xyz
+deactivate
